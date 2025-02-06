@@ -2,3 +2,33 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
 }
+.skills__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.skills__group {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 16px;
+}
+.skills__title {
+  font-size: large;
+  margin-bottom: 20px;
+}
+.skills__dataa i img {
+  margin: auto;
+  padding-bottom: 10px;
+}
+.skills__content {
+  text-align: center;
+  padding: 30px;
+  border-radius: var(--border-radius);
+  border: 1px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills__content:hover {
+  transform: translateY(-10px);
+}
