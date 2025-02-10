@@ -16,7 +16,7 @@ const Project = () => {
         "A online beauty shopping website with recommendations and AI dialogue functions to meet users’ needs for product selection",
       technologies: "React | Node | Express | MongoDB | Bootstrap",
       link: "https://www.google.com.hk/",
-      github: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/OnlineShop",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const Project = () => {
 
       technologies: "Python | MySQL | Spark | AWS s3, RDS, Elastic Beanstalk",
       link: "https://www.google.com.hk/",
-      github: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/driving-behavior-analysis",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const Project = () => {
         "An educational game supporting multiplayer, online chat rooms, and security measures",
       technologies: "C# | Unity | AES encryption | Firebase ",
       link: "https://www.google.com.hk/",
-      github: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/secure-educational-game/tree/main",
     },
     {
       id: 4,
@@ -47,7 +47,7 @@ const Project = () => {
         " Use of dashboards and statistics to provide comprehensive insights to instructors by analyzing student's commits, issues, and pull requests on GitHub",
       technologies: "HTML | CSS | JavaScript | GenAI",
       link: "https://www.google.com.hk/",
-      github: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/contr",
     },
     {
       id: 5,
@@ -56,7 +56,7 @@ const Project = () => {
       description: "A coommand line game of Dou Shou Qi",
       technologies: "Java | MVC pattern | JUnit",
       link: "https://www.google.com.hk/",
-      github: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/Java-CLI-Animal-Chess-Dou-Shou-Qi-",
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ const Project = () => {
         "a static website for introducing VR advatages and disadvantages, and its application.",
       technologies: "HTML | CSS",
       link: "https://www.google.com.hk/",
-      github: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/vr-intro",
     },
   ];
   return (
