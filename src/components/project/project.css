@@ -23,7 +23,7 @@
 .portfolio__item-image {
   border-radius: 1rem;
   overflow: hidden;
-  height: 40%;
+  height: 32%;
 }
 .portfolio__item-cta {
   justify-content: center;
@@ -39,7 +39,7 @@
   font-size: 0.9rem;
 }
 .portfolio__item-content {
-  height: auto;
+  height: 55%;
 }
 
 @media screen and (max-width: 1024px) {

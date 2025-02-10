@@ -10,55 +10,61 @@ const Project = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Test",
+      title: "Online shop",
       img: IMG1,
-      description: "Test",
-      technologies: "Ruby on Rails | SCSS",
+      description:
+        "A online beauty shopping website with recommendations and AI dialogue functions to meet users’ needs for product selection",
+      technologies: "React | Node | Express | MongoDB | Bootstrap",
       link: "https://www.google.com.hk/",
       github: "https://www.google.com.hk/",
     },
     {
       id: 2,
-      title: "Test",
+      title: "Driver behavior analysis",
       img: IMG2,
-      description: "Test",
-      technologies: "Ruby on Rails | SCSS",
+      description:
+        "A web for Summarizing user driving behavior from a large dataset by creating a dashboard to visualize the data, and monitoring the driving speed of driver in real time",
+
+      technologies: "Python | MySQL | Spark | AWS s3, RDS, Elastic Beanstalk",
       link: "https://www.google.com.hk/",
       github: "https://www.google.com.hk/",
     },
     {
       id: 3,
-      title: "Test",
+      title: "Secure educational game",
       img: IMG3,
-      description: "Test",
-      technologies: "Ruby on Rails | SCSS",
+      description:
+        "An educational game supporting multiplayer, online chat rooms, and security measures",
+      technologies: "C# | Unity | AES encryption | Firebase ",
       link: "https://www.google.com.hk/",
       github: "https://www.google.com.hk/",
     },
     {
       id: 4,
-      title: "Test",
+      title: "Student performance on GitHub evaluation web",
       img: IMG4,
-      description: "Test",
-      technologies: "Ruby on Rails | SCSS",
+      description:
+        " Use of dashboards and statistics to provide comprehensive insights to instructors by analyzing student's commits, issues, and pull requests on GitHub",
+      technologies: "HTML | CSS | JavaScript | GenAI",
       link: "https://www.google.com.hk/",
       github: "https://www.google.com.hk/",
     },
     {
       id: 5,
-      title: "Test",
+      title: "Animal Chess Game (Dou Shou Qi)",
       img: IMG5,
-      description: "Test",
-      technologies: "Ruby on Rails | SCSS",
+      description: "A coommand line game of Dou Shou Qi",
+      technologies: "Java | MVC pattern | JUnit",
       link: "https://www.google.com.hk/",
       github: "https://www.google.com.hk/",
     },
     {
       id: 6,
-      title: "Test",
+      title: "VR News website",
       img: IMG6,
-      description: "Test",
-      technologies: "Ruby on Rails | SCSS",
+      description:
+        "a static website for introducing VR advatages and disadvantages, and its application.",
+      technologies: "HTML | CSS",
       link: "https://www.google.com.hk/",
       github: "https://www.google.com.hk/",
     },
@@ -85,14 +91,6 @@ const Project = () => {
                 rel="noreferrer"
               >
                 GitHub
-              </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
-              >
-                Visit Website
               </a>
             </div>
           </div>
