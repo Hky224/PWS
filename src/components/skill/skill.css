@@ -67,3 +67,21 @@
     clip-path: inset(0 0 0 95%);
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .skills__container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills__container {
+    grid-template-columns: 310px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+}
