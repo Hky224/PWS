@@ -2,6 +2,8 @@ import React from "react";
 import "./skill.css";
 import Languages from "./Languages";
 import Frameworks from "./Frameworks";
+import Databases from "./Databases";
+import Tools from "./Tools";
 
 const Skill = () => {
   return (
@@ -11,12 +13,8 @@ const Skill = () => {
         <Languages />
 
         <Frameworks />
-        <div className="skills__content">
-          <h3 className="skills__title">Databases</h3>
-        </div>
-        <div className="skills__content">
-          <h3 className="skills__title">Tools</h3>
-        </div>
+        <Databases />
+        <Tools />
       </div>
     </section>
   );
