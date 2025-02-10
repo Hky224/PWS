@@ -1,0 +1,43 @@
+.projects__container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.section__title {
+  font-size: large;
+  margin-bottom: 20px;
+}
+.projects__content {
+  text-align: center;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.projects__content:hover {
+  transform: translateY(-10px);
+}
+
+.portfolio__item-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 40%;
+}
+.portfolio__item-cta {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+.projects__content h3 {
+  margin: 2rem 0;
+}
+
+.projects__content p {
+  margin: 0 0 1.2rem 0;
+  font-size: 0.9rem;
+}
+.portfolio__item-content {
+  height: auto;
+}
