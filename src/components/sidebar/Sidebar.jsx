@@ -33,11 +33,7 @@ const Sidebar = () => {
                   <i class="uil uil-bag-alt"></i>
                 </a>
               </li>
-              <li className="nav__item">
-                <a href="#experience" className="nav__link">
-                  <i class="uil uil-graduation-cap"></i>
-                </a>
-              </li>
+
               <li className="nav__item">
                 <a href="#contact" className="nav__link">
                   <i class="uil uil-comment"></i>
