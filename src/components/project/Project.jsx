@@ -5,7 +5,7 @@ import IMG2 from "../../assets/driving.png";
 import IMG3 from "../../assets/game.png";
 import IMG4 from "../../assets/githuncontribute.png";
 import IMG5 from "../../assets/Dou-Shou-Qi.png";
-import IMG6 from "../../assets/vr.png";
+import IMG6 from "../../assets/myweb.png";
 const Project = () => {
   const soloProjects = [
     {
@@ -28,6 +28,15 @@ const Project = () => {
       technologies: "Python | MySQL | Spark | AWS s3, RDS, Elastic Beanstalk",
       link: "https://www.google.com.hk/",
       github: "https://github.com/Hky224/driving-behavior-analysis",
+    },
+    {
+      id: 6,
+      title: "My website",
+      img: IMG6,
+      description: "a portfolio website showing my projects and skills set.",
+      technologies: "React | JavaScript | HTML | CSS",
+      link: "https://www.google.com.hk/",
+      github: "https://github.com/Hky224/PWS",
     },
     {
       id: 3,
@@ -57,16 +66,6 @@ const Project = () => {
       technologies: "Java | MVC pattern | JUnit",
       link: "https://www.google.com.hk/",
       github: "https://github.com/Hky224/Java-CLI-Animal-Chess-Dou-Shou-Qi-",
-    },
-    {
-      id: 6,
-      title: "VR News website",
-      img: IMG6,
-      description:
-        "a static website for introducing VR advatages and disadvantages, and its application.",
-      technologies: "HTML | CSS",
-      link: "https://www.google.com.hk/",
-      github: "https://github.com/Hky224/vr-intro",
     },
   ];
   return (
